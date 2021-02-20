@@ -1,0 +1,83 @@
+/* videos section */
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.section-bg {
+    background-color: #363E97;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.left-video,
+.right-video {
+    width: 570px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-bg {
+    background-color: yellow;
+}
+.right-bg {
+    background-color: violet;
+}
+/* section#2 */
+.section2-bg {
+    background-color: #E6E6E6;
+}
+.left-article {
+    width: 570px;
+    background-color: #F2F2F2;
+    /* margin-right: 29px; */
+}
+.right-article {
+    width: 570px;
+    background-color: violet;
+}
+.image-box {
+    display: flex;
+    justify-content: space-around;
+}
+/* .text {
+    width: 355px;
+} */
+
+.image-box .text {
+    width: 355px;
+    color: red;
+}
+.read {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+/* section#3 */
+.section3-bg {
+    background-color: #BDCCD4;
+}
+.block-image {
+    width: 270px;
+}
+.block-image img {
+    width: 100%;
+}
+
+/* Icons */
+.fa-facebook-f {
+    color: blue;
+    font-size: 30px;
+}
+.fa-facebook-f:hover {
+    color: aqua;
+}
+.youtubeicon {
+    color: red;
+    font-size: 30px;
+}
+.youtubeicon:hover {
+    color: green;
+}
