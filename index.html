@@ -2,83 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our website decsription">
+    <meta name="keywords" content="HTML,CSS,FLEX, Responsive, Form">
+    <meta name="author" content="kristina">
+    <meta name="google" content="notranslate" />
     <title>Display FLex </title>
     <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">  
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <section class="section-bg">
-        <div class="container">
-            <h3> VIDEOS | view all videos </h3>  
-            <div class="d-flex">
-                <div class="left-video left-bg">
-                    <p> EMBEDED YOUTUBE VIDEO GOES HERE</p>
-                </div>
-                <div class="right-video right-bg">
-                    <p> EMBEDED YOUTUBE VIDEO GOES HERE</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section2-bg">
-        <div class="container">
-           <h3> FEATURED | view all featured media </h3>
-            <div class="d-flex">
-               <div class="left-article">
-                   <h4> RESPONSIVE WEB DESIGN</h4>
-                    <div class="image-box">
-                        <img src="img/Group 261.png" alt="article-image">
-                        <p class="text"> approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-                    </div>
-                    <div class="read">
-                        <a href="#"> read more</a>
-                    </div>
-               </div>
-               <div class="right-article">
-                    <h4> RESPONSIVE WEB DESIGN</h4>
-                    <div class="image-box">
-                        <img src="img/Group 261.png" alt="article-image">
-                        <p class="text"> approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-                    </div>
-                    <div class="read">
-                        <a href="#"> read more</a>
-                    </div>
-               </div>
-            </div>
-        </div>
-    </section>
-
     <section>
-        <div class="container">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-youtube youtubeicon"></i>
-        </div>
+            <form class="form-wraper" action="">
+                <div class="input-wraper">
+                    <label  for="fname"> Name</label>
+                    <input class="input" type="text" id="fname" name="fisrtname" placeholder="Your First Name.." required>
+                </div>
+                <div class="input-wraper">
+                    <label for="passw"> Password</label>
+                    <input class="input" type="password" id="passw" name="mypassword" placeholder="Your Password..." required>
+                </div>
+                <div class="input-wraper">
+                    <label> Your Review</label>
+                    <textarea class="textarea-wraper" placeholder="Please eneter Your review"> </textarea>
+                </div>
+                <div>
+                    <h3> Choose gender</h3> 
+                    <div>
+                        <input type="radio" name="gender" id="male">
+                        <label> Male </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" id="female">
+                        <label> Female </label>
+                    </div>
+                </div>
+                <div>
+                    <h3> Choose your hobby</h3> 
+                    <div>
+                        <input type="checkbox" name="hobby1" id="music">
+                        <label> music </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="hobby2" id="dance">
+                        <label> dance </label>
+                    </div>
+                </div>
+                <button class="button-wraper" type="submit"> Send </button>
+            </form>
     </section>
 
-    <section class="section3-bg">
-        <div class="container">
-            <h3> NEWS | view all news </h3>
-            <div class="d-flex">
-                <div class="block-image">
-                    <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="image">
-                    <p> TYPOGRAPHY LAB</p>
-                </div>
-                <div class="block-image">
-                    <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="image">
-                    <p> TYPOGRAPHY LAB</p>
-                </div>
-                <div class="block-image">
-                    <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="image">
-                    <p> TYPOGRAPHY LAB</p>
-                </div>
-                <div class="block-image">
-                    <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="image">
-                    <p> TYPOGRAPHY LAB</p>
-                </div>
+
+    <!-- pseudo classes -->
+    <section>
+        <div class="wraper-box">
+            <div class="box">
+                <p> text </p>
+            </div>
+            <div class="box">
+                <p> text </p>
+            </div>
+            <div class="box">
+                <p> text </p>
+            </div>
+            <div class="box">
+                <p> text </p>
             </div>
         </div>
     </section>
+   
 </body>
 </html> 
